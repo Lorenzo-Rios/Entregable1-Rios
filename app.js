@@ -12,7 +12,7 @@ function ready(){
     
     //Agregremos funcionalidad a los botones eliminar del carrito
     const botonesEliminarItem = document.getElementsByClassName('btn-eliminar');
-    for(var i=0;i<botonesEliminarItem.length; i++){
+    for(let i=0;i<botonesEliminarItem.length; i++){
         let button = botonesEliminarItem[i];
         button.addEventListener('click',eliminarItemCarrito);
     }
