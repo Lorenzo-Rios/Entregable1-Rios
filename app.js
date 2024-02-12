@@ -14,7 +14,7 @@ function ready(){
     const botonesEliminarItem = document.getElementsByClassName('btn-eliminar');
     for(let i=0;i<botonesEliminarItem.length; i++){
         let button = botonesEliminarItem[i];
-        button.addEventListener('click',eliminarItemCarrito);
+        button.addEventListener('click', eliminarItemCarrito);
     }
 
     //Agrego funcionalidad al boton sumar cantidad
